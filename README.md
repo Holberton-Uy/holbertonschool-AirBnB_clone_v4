@@ -154,7 +154,7 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Ignacio Peralta\n
+Ignacio Peralta<br>
 Valentin Repetto
 
 Second part of Airbnb: Joann Vuong
