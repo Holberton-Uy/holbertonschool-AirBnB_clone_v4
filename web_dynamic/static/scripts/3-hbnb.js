@@ -42,7 +42,10 @@ $(document).ready(function () {
         dataType: "json",
         success: function (response){
             for (let place of response){
-                
+                let article = $(`<article></article>`)
+                article.append()
+                $("section.places").append($(article))
+                $("article")
                 console.log(response)
             }
             // $("section.places")
