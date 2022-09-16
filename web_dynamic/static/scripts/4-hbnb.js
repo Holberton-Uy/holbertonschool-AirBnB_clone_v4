@@ -157,10 +157,9 @@ $(document).ready(function () {
         console.log("Error");
         return;
       }
-
+      copyChecked = Object.values(checked)
       users = data;
-
-      let filtered = Object.keys(checked).filter((obj) => obj.slice(1));
+      let filtered = copyChecked.map((obj) => obj.split(":")[1]);
 
       $.ajax({
         url: "http://localhost:5001/api/v1/places_search",
